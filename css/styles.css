@@ -591,5 +591,130 @@ footer {
 .footer__copyright {
     font-size: 0.8rem;
     color: #1F1F38;
-    /* margin-bottom: 1rem; */
+}
+
+
+/* MEDIA QUERYS */
+@media (max-width: 1024px) {
+    section {
+        width: 90%;
+    }
+
+    .about__container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__content {
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .experience__container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience__card:nth-child(2) {
+        margin-top: 3rem;
+    }
+
+    .experience__card {
+        width: 80%;
+    }
+
+    .service__container {
+        gap: 1rem;
+    }
+
+    .portfolio__container {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+
+    .contact__info {
+        justify-content: space-between;
+    }
+
+    .contact__info-item {
+        width: 45%;
+    }
+
+    .footer__social {
+        width: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        width: 80%;
+    }
+
+    .about__me {
+        width: 60%;
+    }
+
+    .about__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__card {
+        width: 60%;
+        margin: 1rem 0;
+    }
+
+    .experience__card {
+        width: 100%;
+    }
+
+    .experience__content {
+        margin: 0 30px;
+    }
+
+    .service__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service:nth-child(2) {
+        margin: 2rem 0;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .portfolio__container {
+        grid-template-columns: repeat(1, 1fr);
+    } 
+
+    .testimonial__item {
+        width: 100%;
+    }
+
+    .contact__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__info-item {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    #footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer ul li {
+        margin: 0.5rem 0;
+    }
+
+    .footer__social {
+        width: 50%;
+    }
 }
