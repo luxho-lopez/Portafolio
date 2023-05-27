@@ -2,46 +2,46 @@
 const proyectos = [
     {
         id: 1,
-        title: 'Proyecto 1',
-        image: 'img/proyectos/proyecto1.png',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Tweets Local Storage JS',
+        image: 'img/proyectos/LocalStorage-JS.png',
+        github: 'https://github.com/luxho-lopez/Clases/tree/master/19-PROYECTO-LocalStorage',
+        demo: 'https://luxho-lopez.github.io/Clases/19-PROYECTO-LocalStorage/'
     },
     {
         id: 2,
-        title: 'Proyecto 2',
-        image: 'img/proyectos/proyecto2.png',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Drum-Kit JS',
+        image: 'img/proyectos/Drum-Kit.png',
+        github: 'https://github.com/luxho-lopez/30DaysJS/tree/master/01_Drum-Kit',
+        demo: 'https://luxho-lopez.github.io/30DaysJS/01_Drum-Kit/'
     },
     {
         id: 3,
-        title: 'Proyecto 3',
-        image: 'img/proyectos/proyecto3.png',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Poke-Search Bootstrap y JS',
+        image: 'img/proyectos/pokeSearch.png',
+        github: 'https://github.com/luxho-lopez/pokeSearch',
+        demo: 'https://luxho-lopez.github.io/pokeSearch/'
     },
     {
         id: 4,
-        title: 'Proyecto 4',
-        image: 'img/proyectos/proyecto4.png',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Robot HTML y CSS',
+        image: 'img/proyectos/robot-html-css.png',
+        github: 'https://github.com/luxho-lopez/robot-html-css',
+        demo: 'https://luxho-lopez.github.io/robot-html-css/'
     },
-    {
-        id: 5,
-        title: 'Proyecto 5',
-        image: 'img/proyectos/proyecto5.png',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 6,
-        title: 'Proyecto 6',
-        image: 'img/proyectos/proyecto6.png',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
+    // {
+    //     id: 5,
+    //     title: 'Proyecto 5',
+    //     image: 'img/proyectos/proyecto5.png',
+    //     github: 'https://github.com',
+    //     demo: 'https://github.com'
+    // },
+    // {
+    //     id: 6,
+    //     title: 'Proyecto 6',
+    //     image: 'img/proyectos/proyecto6.png',
+    //     github: 'https://github.com',
+    //     demo: 'https://github.com'
+    // },
 ];
 
 
