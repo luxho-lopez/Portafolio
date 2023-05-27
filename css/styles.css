@@ -121,6 +121,7 @@ img {
     width: 25px;
     height: 25px;
     margin-top: 10px;
+    margin-right: 5px;
 }
 
 .scroll {
@@ -141,8 +142,8 @@ img {
 }
 
 .pictures {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: var(--blue-light);
     border-radius: 50% 50% 0 0;
 }
@@ -671,6 +672,10 @@ footer {
 
     .experience__content {
         margin: 0 30px;
+    }
+
+    .experience__details img {
+        margin-right: 0.5rem;
     }
 
     .service__container {
